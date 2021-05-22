@@ -1,0 +1,33 @@
+{
+  "name": "messengerpeople-node",
+  "version": "1.0.0",
+  "description": "Unofficial  Node.js library for messengerpeople.dev",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerHext/messengerpeople-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerHext/messengerpeople-node/issues"
+  },
+  "homepage": "https://github.com/VerHext/messengerpeople-node#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/es6-promise": "^3.3.0",
+    "axios": "^0.21.1",
+    "detect-browser": "^5.2.0",
+    "qs": "^6.10.1",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.6"
+  }
+}
